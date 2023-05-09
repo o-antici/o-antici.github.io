@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(248, 225, 195);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13pt;}
+h1 {background-image: url(slike/pozadina.jpg);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 3px 2px 5px gray;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(177, 122, 59);
+    text-transform: uppercase;
+    border: wavy rgb(177, 122, 59) ;
+	margin:0px;
+	}
+
+nav{
+	background-image: url(slike/pozadina.jpg);
+    height:60px;
+	}
+
+nav ul {
+	text-align:center;
+	padding-top: 20px;
+	list-style-type: none;
+    }
+
+nav ul li{
+    display: inline-block;
+	}   
+
+nav ul li a{
+    color: black;
+    border: 1px solid rgb(248, 225, 195);
+    padding: 15px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 3px 2px 5px gray;
+    font-style: italic;
+    font-weight: bold;}
+
+nav a:hover{background-color: rgb(248, 225, 195);}
+
+#link{color: black;}
+
+.linija{
+    border-bottom: 3px solid rgb(177, 122, 59) ;
+    text-shadow: 3px 2px 5px gray}
+	
+.okvir{
+    background-color: rgb(177, 122, 59);
+    width: 200px;
+    text-shadow: 3px 2px 5px gray;}
